@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Biblioteca_Dominio.Entidades.ClsAutor">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAgEAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Entidades\ClsAutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsCategoria">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAASAAAABAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Entidades\ClsCategoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsEdicion">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAABAAAQAAAAAAAAAAABAAAAgCAAAAAAAA=</HashCode>
+      <FileName>Entidades\ClsEdicion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsEditorial">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAACAAAACAIAAAEAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\ClsEditorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsEjemplar">
+    <Position X="12.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAQBAAAAiAAAAAgAAAAAAIQIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Entidades\ClsEjemplar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="libro" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsFavorito">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAIAAAAYBAAAAEAAACAA=</HashCode>
+      <FileName>Entidades\ClsFavorito.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="usuario" />
+      <Property Name="ejemplar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsHistorial">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAQCAICAAQAAAoAAIAQAAAAAAAAACAA=</HashCode>
+      <FileName>Entidades\ClsHistorial.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="prestamo" />
+      <Property Name="reserva" />
+      <Property Name="usuario" />
+      <Property Name="ejemplar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsLibro">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAQQAAAABAAAABAAAAIAQIIAQAAAAAQABAAQEIQAA=</HashCode>
+      <FileName>Entidades\ClsLibro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="autor" />
+      <Property Name="edicion" />
+      <Property Name="editorial" />
+      <Property Name="categoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsPersona">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAEAAAACAAAAAAEAAABQACAAAAAAAAACAAMAACAAQA=</HashCode>
+      <FileName>Entidades\ClsPersona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsPrestamo">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAQAAAAAAAAAAAAAAAQAAAgAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\ClsPrestamo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="reserva" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsRanking">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEgACCA=</HashCode>
+      <FileName>Entidades\ClsRanking.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ejemplar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsReserva">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAiAAQAAAIACAAQAAAAAAAAACEA=</HashCode>
+      <FileName>Entidades\ClsReserva.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="usuario" />
+      <Property Name="ejemplar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsTipoUsuario">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAQgAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\ClsTipoUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca_Dominio.Entidades.ClsUsuario">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQABAAAAIAAAAAAAACAQAAAAAAAAAYAAAAIAAAIQAA=</HashCode>
+      <FileName>Entidades\ClsUsuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="persona" />
+      <Property Name="tipo" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\Biblioteca_Infraestructura.dll.config
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\Biblioteca_Infraestructura.dll
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\Biblioteca_Infraestructura.pdb
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\Biblioteca_Dominio.dll
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\Biblioteca_Dominio.pdb
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\obj\Debug\Biblioteca_Infraestructura.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\obj\Debug\Biblioteca_Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\obj\Debug\Biblioteca_Infraestructura.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\obj\Debug\Biblioteca_Infraestructura.dll
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Infraestructura\obj\Debug\Biblioteca_Infraestructura.pdb

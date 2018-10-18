@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\bin\Debug\Biblioteca_Dominio.dll
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\bin\Debug\Biblioteca_Dominio.pdb
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\obj\Debug\Biblioteca_Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\obj\Debug\Biblioteca_Dominio.dll
+C:\Users\ASUS\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\obj\Debug\Biblioteca_Dominio.pdb
+C:\Users\Equipo\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\bin\Debug\Biblioteca_Dominio.dll
+C:\Users\Equipo\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\bin\Debug\Biblioteca_Dominio.pdb
+C:\Users\Equipo\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\obj\Debug\Biblioteca_Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Equipo\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\obj\Debug\Biblioteca_Dominio.dll
+C:\Users\Equipo\Desktop\ProyectoBibliotecaUPT\Biblioteca_Dominio\obj\Debug\Biblioteca_Dominio.pdb
