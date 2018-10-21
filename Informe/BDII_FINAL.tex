@@ -151,10 +151,10 @@ BASE DE DATOS II\\
 Integrantes: \\
 \begin{flushleft}
 Salamanca Contreras, Fiorella Rosmery		\hfill	(2015053237) \\
-Escalante Maron,Nelia 		\hfill	() \\
-Condori Gutierrez,Flor de Maria            	\hfill	() \\
+Escalante Maron,Nelia 		\hfill	(2014049551) \\
+Condori Gutierrez,Flor de Maria            	\hfill	(2015053227) \\
 Coaquira Calizaya,Yerson     	\hfill	(2015053225) \\
-Espinoza Caso,Lizbeth   		\hfill	() \\
+Espinoza Caso,Lizbeth   		\hfill	(2011040667) \\
 
 \end{flushleft}
 \end{large}
@@ -318,10 +318,7 @@ SISTEMA BIBLIOTECA}
 
 %%%%%%%%%%%%%%%%%%%% Table No: 1 ends here %%%%%%%%%%%%%%%%%%%%
 
-
-\vspace{\baselineskip}
-
-\vspace{\baselineskip}
+\newpage
 
 	\item Caso de uso \par
 
@@ -330,7 +327,7 @@ Este diagrama demuestra todos los requerimientos o casos de usos que existen en 
 %%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 starts here %%%%%%%%%%%%%%%%%%%%
 \begin{figure}[H]
 	\begin{Center}
-		\includegraphics[width=5.91in,height=3.08in]{./media/figura1.png}
+		\includegraphics[width=6in,height=4in]{./media/cDeUso.jpg}
 	\end{Center}
 \end{figure}
 
@@ -339,18 +336,46 @@ Este diagrama demuestra todos los requerimientos o casos de usos que existen en 
 \par
 
 	\item Diagrama de secuencia \par
+	
+\vspace{\baselineskip}
 
-
-Este diagrama de secuencia, grafica de manera técnica la secuencia de actividades que realizara el sistema de acuerdo con los casos de uso.
-%%%%%%%%%%%%%%%%%%%% Figure/Image No: 2 starts here %%%%%%%%%%%%%%%%%%%%
-
+Caso de Uso AGREGAR USUARIO
 \begin{figure}[H]
 	\begin{Center}
-		\includegraphics[width=5.91in,height=4.11in]{./media/diagrama_secuencia.png}
+		\includegraphics[width=6in,height=3.8in]{./media/DSagregarUsu.jpg}
 	\end{Center}
 \end{figure}
 
+\newpage
+
+Caso de Uso MODIFICAR USUARIO
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=6in,height=4in]{./media/DSmodificarUsu.jpg}
+	\end{Center}
+\end{figure}
+
+\vspace{\baselineskip}
+
+Caso de Uso AGREGAR EJEMPLAR
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=6in,height=4in]{./media/DSagregarEjemplar.jpg}
+	\end{Center}
+\end{figure}
+
+\newpage
+
+Caso de Uso MODIFICAR EJEMPLAR
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=6in,height=4in]{./media/DSmodificarEjemplar.jpg}
+	\end{Center}
+\end{figure}
+
+
 \par
+\vspace{\baselineskip}
 
 	\item Diagrama de Actividades \par
 
@@ -360,7 +385,7 @@ Este diagrama de actividades propuesto, grafica de manera técnica las actividad
 
 \begin{figure}[H]
 	\begin{Center}
-		\includegraphics[width=5.91in,height=9in]{./media/diagrama_actividades.jpg}
+		\includegraphics[width=6in,height=5in]{./media/dActvidad.jpg}
 	\end{Center}
 \end{figure}
 
@@ -412,14 +437,146 @@ Este diagrama es muestra la cardinalidad, relaciones y atributos de las Clases  
 \par
 \end{itemize}
 
-	\item PRUEBAS
+	\item PRUEBAS UNITARIAS
 	
+\vspace{\baselineskip}
+Esta Prueba Unitaria corresponde a la clase Autor. Esta prueba unitaria pone a prueba el metodo "CrearAutor()" declarado en la clase.
+
+%%%%%%%%%%%%%%%%%%%% Figura / Imagen No: 5 comienza aquí %%%%%%%%%%%%%%%%%%%%
+
 \begin{figure}[H]
 	\begin{Center}
-		\includegraphics[width=5.91in,height=4.25in]{./media/pruebas.PNG}
+		\includegraphics[width=5.91in,height=3.01in]{./media/pruebaU1.jpg}
 	\end{Center}
 \end{figure}
 
+
+%%%%%%%%%%%%%%%%%%%% Figura / Imagen No: 5 Termina aquí %%%%%%%%%%%%%%%%%%%%
+\newpage
+Esta Prueba Unitaria corresponde a la clase Libro. Esta prueba unitaria pone a prueba el metodo "CrearLibro()" declarado en la clase.
+%%%%%%%%%%%%%%%%%%%% Figura / Imagen No: 6 comienza aquí %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.15in]{./media/pruebaU2.jpg}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figura / Imagen No: 6 Termina aquí %%%%%%%%%%%%%%%%%%%%
+	\item MAPEO
+
+\vspace{\baselineskip}
+Clase Autor:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=1.95in]{./media/autorMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Categoria:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.15in]{./media/categoriaMap.jpg}
+	\end{Center}
+\end{figure}
+
+\newpage
+Clase Edición:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.15in]{./media/edicionMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Editorial:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.15in]{./media/editorialMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Ejemplar:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.40in]{./media/ejemplarMap.jpg}
+	\end{Center}
+\end{figure}
+
+\newpage
+Clase Favorito:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.15in]{./media/favoritoMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Historial:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.75in]{./media/historialMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Libro:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=3.05in]{./media/libroMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Personal:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.80in]{./media/personalMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Préstamo:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.15in]{./media/prestamoMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Ranking:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.15in]{./media/rankingMap.jpg}
+	\end{Center}
+\end{figure}
+
+\newpage
+Clase Reserva:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.50in]{./media/reservaMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase TipoUsuario:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=1.50in]{./media/TusuarioMap.jpg}
+	\end{Center}
+\end{figure}
+
+
+Clase Usuario:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=5.91in,height=2.90in]{./media/usuarioMap.jpg}
+	\end{Center}
+\end{figure}
 
 \end{enumerate}
 \end{enumerate}\par
